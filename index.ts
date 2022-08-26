@@ -94,11 +94,11 @@ let paragraph: string = "Blablabla...";
 
 let counter = 0;
 
-let intervalId = setInterval(() => (
+let intervalId = setInterval(() => {
   counter = counter + 1;
   const appP: HTMLElement = document.getElementById('app.p');
   appP.innerHTML = "Contador: "+counter;
-), 1000)
+}, 1000)
 
 const btn = document.getElementById("app.btn");
 btn?.addEventListener("click", alertMethod);
