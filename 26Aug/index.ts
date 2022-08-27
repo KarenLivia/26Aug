@@ -1,4 +1,7 @@
 
+// Import stylesheets
+import './style.css';
+
 //Array
 let list: number[] = [1, 2, 3];
 
