@@ -1,5 +1,15 @@
 
+//Array
+let list: number[] = [1, 2, 3];
 
+let otherList: Array<number> = [1, 2, 3];
+
+const appDiv0: HTMLElement = document.getElementById('app0');
+appDiv0.innerHTML = `
+<h1>Array declaration</h1>
+<h2>list: ${list}</h2>
+<h2>otherList: ${otherList}</h2>
+`;
 
 //Tuple
 let me: [string, number];
