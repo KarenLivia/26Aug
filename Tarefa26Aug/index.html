@@ -1,0 +1,12 @@
+greet(){
+  return 'Olá, ' + this.greeting + '!';
+}
+}
+
+let greeter = new Greeter('sou uma classe');
+
+const appDiv5: HTMLElement = document.getElementById('app5');
+appDiv5.innerHTML = `
+<h1>Classes</h1>
+<h2>${greeter.greet()}</h2>
+`
